@@ -1,5 +1,5 @@
 // C++ code
-//
+//Servo Motors code
 #include <Servo.h>
 
 
