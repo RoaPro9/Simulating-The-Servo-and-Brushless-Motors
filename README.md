@@ -113,4 +113,9 @@ The small DC motor, is likely to use more power than an Arduino digital output c
 
 A small transistor like the PN2222 can be used as a switch that uses just a little current from the Arduino digital output to control the much bigger current of the motor.
 
+### Start Simulation
+
+
+https://user-images.githubusercontent.com/70070721/179678172-70b0bfa1-67d4-4889-9232-2666e5ee437d.mp4
+
 
