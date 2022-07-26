@@ -15,18 +15,18 @@ Servo motors have three wires: power, ground, and signal. The power wire is norm
 ### Arduino Code
 Controlling a servo position using a potentiometer :
 Create servo object to control a servo
-```
+```C++
 
 #include <Servo.h>
 
 Servo Theservo;
 ```
 Create a variable to store the servo position
-```
+```C++
 int pos =0;
 ```
 Attaches the servo on pin 11 to the servo object
-```
+```C++
 void setup (){
 
 Theservo.attach(11);
@@ -36,7 +36,7 @@ Theservo.attach(11);
 Create Two loops:
 one goes from 0 degrees to 180 degrees, then let servo to go to position in variable 'pos' and then waits 10ms for the servo to reach the position.
 the other one goes from 180 degrees to 0 degrees, then let servo to go to position in variable 'pos' and then waits 10ms for the servo to reach the position.
-```
+```C++
 void loop(){
 for( pos=0 ; pos <= 180 ; pos += 1){
     Theservo.write(pos);
@@ -76,7 +76,7 @@ see the image below!
 ![Funky Snaget-Vihelmo](https://user-images.githubusercontent.com/70070721/179676098-0738028a-cc9b-449f-8919-a2c971464af8.png)
 
 ### Arduino Code
-```
+```C++
 // C++ code
 //
 
